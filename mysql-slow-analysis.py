@@ -133,9 +133,9 @@ if __name__ == "__main__":
     # 检测极赖
     # os.system('rpm -q perl-Digest-MD5 || yum -y -q install perl-Digest-MD5')
     LibToolkit = 'pt-query-digest'
-    LibToolkit_url = 'https://github.com/SuperLandy/mysql-slow-analysis/raw/master/pt-query-digest'
+    LibToolkit_url = 'https://github.com/SuperLandy/mysql-slow-analysis/blob/master/pt-query-digest'
     HtmlTemplate = 'template.html'
-    HtmlTemplate_url = 'https://github.com/SuperLandy/mysql-slow-analysis/raw/master/template.html'
+    HtmlTemplate_url = 'https://github.com/SuperLandy/mysql-slow-analysis/blob/master/template.html'
 
     if len(sys.argv) == 4:
         slow_log_name = sys.argv[1]
